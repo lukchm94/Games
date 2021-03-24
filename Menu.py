@@ -4,7 +4,7 @@ import tennis as tn
 from tkinter import *
 from PIL import ImageTk, Image
 from tkinter import Label
-import  Racer as rc
+import Racer as rc
 
 def tennis():
     theApp = tn.App()
@@ -25,7 +25,7 @@ def wookie_auditor():
 def menu():
     root = Tk()
     root.title("Snake Game - Main Menu")
-    #root.geometry("800x400")
+    root.geometry("800x400")
     root.attributes('-fullscreen', TRUE)
     root.configure(background='white')
 
